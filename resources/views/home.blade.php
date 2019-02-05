@@ -9,12 +9,16 @@
 
                 <div class="card-body">
                     @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
+                    <div class="alert alert-success" role="alert">
+                        {{ session('status') }}
+                    </div>
                     @endif
 
-                    You are logged in!
+                    Voce está conectado!
+                    
+                    <formulario-component> </formulario-component> <!-- componente Vue.js -->
+                    <formulario-component> </formulario-component> <!-- componente Vue.js -->
+                    <mensagem-component> </mensagem-component> <!-- componente Vue.js -->
                 </div>
             </div>
         </div>
